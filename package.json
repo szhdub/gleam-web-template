@@ -1,0 +1,30 @@
+{
+  "name": "new_dash",
+  "version": "1.0.0",
+  "description": "[![Package Version](https://img.shields.io/hexpm/v/web_temp)](https://hex.pm/packages/web_temp) [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/web_temp/)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "npm run clean && gleam build && vite build",
+    "clean": "rm -rf build dist",
+    "start": "gleam build && concurrently --kill-others \"chokidar 'src/**' -c 'gleam build'\" \"vite --port 1234\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "concurrently": "^8.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "daisyui": "^3.1.0",
+    "process": "^0.11.10",
+    "vite": "^4.3.9"
+  }
+}
