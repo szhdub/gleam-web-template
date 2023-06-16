@@ -1,24 +1,20 @@
-# web_templat_gleam
+# web_template_gleam
 
-[![Package Version](https://img.shields.io/hexpm/v/web_templat_gleam)](https://hex.pm/packages/web_templat_gleam)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/web_templat_gleam/)
+[![Package Version](https://img.shields.io/hexpm/v/web_template_gleam)](https://hex.pm/packages/web_template_gleam)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/web_template_gleam/)
 
 A Gleam project
 
 ## Quick start
 
 ```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-gleam shell # Run an Erlang shell
+npm i           # first install the project independence
+
+npm start       # Run the project
+npm run build   # build the project
+
+npm run clean
 ```
 
-## Installation
 
-If available on Hex this package can be added to your Gleam project:
 
-```sh
-gleam add web_templat_gleam
-```
-
-and its documentation can be found at <https://hexdocs.pm/web_templat_gleam>.
