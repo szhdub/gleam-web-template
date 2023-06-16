@@ -5,6 +5,8 @@
 
 A Gleam project
 
+Gleam, Lustre, Tailwind css, Vite, Daisyui
+
 ## Quick start
 
 ```sh
